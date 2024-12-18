@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration form</title>
+</head>
+<body>
+  
+  <div>
+    <h1>Reghister here</h1>
+
+    <form action="./controller.html" method="post">
+
+    <label for="Fname">First name:</label>
+  <input type="text" id="Fname" required>
+  <br><br>
+    <label for="Lname">Last name:</label>
+  <input type="taxt" id="Lname" required>
+  <br><br>
+    <label for="Mname">Mother's name:</label>
+  <input type="text" id="Mname" required>
+<br><br>
+<label for="Birthday">Enter your Birthday:</label>
+<input type="date" id="Birthday" required>
+<br><br>
+<label for="mail">E-Mail:</label>
+<input type="text" id="mail" required>
+<br><br>
+<label for="Phone">Phone Number:</label>
+<input type="tel" id="Phone" required>
+<br><br>
+<label for="address">Address:</label>
+<br>
+<textarea id="address" cols="30" rows="5" required></textarea>
+<br><br>
+<label for="country">Select Your Country:</label>
+<select id="country" required>
+  <optgroup label="Asia">
+      <option>Bangladesh</option>
+      <option>India</option>
+      <option>Palestine</option>
+      <option>Malaysia</option>
+  </optgroup>
+  <optgroup label="South America">
+      <option>Brazil</option>
+      <option>Argentina</option>
+      <option>Paru</option>
+      <option>Bolivia</option> 
+
+</optgroup>
+</select>
+<br><br>
+<label>Select your Gender</label>
+<input type="radio" id="male" name="gender" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" required>
+<label for="female">Female</label>
+<input type="radio" id="others" name="gender" required>
+<label for="others">Prefer not to say</label>
+<br><br>
+<label for="Photo">Choose your Photo:</label>
+<input type="file" id="Photo"  accept=".png"required>
+<br><br>
+
+<input type="reset">
+<button style="margin-left: 25px;" type="submit">
+  Submit
+</button>
+
+</form>
+</div>
+
+<hr>
+
+<div style="background-color: lightblue;">
+
+  <table  style="border-style: none;"
+   border="5" width="500" height="100" cellspacing="0" cellpadding="0"  align="center">
+    <h1 align="center">Table</h1>
+    <tbody align="center">
+    <tr>
+      <td>
+
+        <table border="1" width="100%" height="60">
+          <tr align="center">
+            <td bgcolor="#1B9CFC"><font color="white">11</font></td>
+            <td bgcolor="#CAD3C8"><font color="black">12</font></td>
+            <td bgcolor="#2C3A47"><font color="white">13</font></td>
+            <td bgcolor="#F8EFBA"><font color="black">14</font></td>
+          </tr>
+        </table>
+
+        <table border="1" width="100%" height="60">
+          <tr align="center">
+            <td bgcolor="#B33771"><font color="white">21</font></td>
+            <td bgcolor="#2f3542"><font color="white">22</font></td>
+            <td bgcolor="#3742fa"><font color="white">23</font></td>
+            <td bgcolor="#ffffff"><font color="black">24</font></td>
+            <td bgcolor="#eccc68"><font color="white">25</font></td>
+            <td bgcolor="#ff4757"><font color="lightblue">26</font></td>
+          </tr>
+        </table>
+
+        <table border="1" width="100%" height="60">
+          <tr align="center">
+            <td bgcolor="#2ed573"><font color="white">31</font></td>
+            <td bgcolor="#3742fa"><font color="white">32</font></td>
+            <td bgcolor="#57606f"><font color="white">33</font></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </tbody>
+  </table>
+  
+</div>
+
+
+</body>
+</html>
